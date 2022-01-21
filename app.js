@@ -55,7 +55,7 @@ app.post("/newPurchase", async function (req, res) {
         category_id: "art",
         quantity: +unit,
         unit_price: parseFloat(price),
-        external_reference: "eu@joselopes.me",
+        external_reference: "zeedu.profissional@gmail.com",
       },
     ],
     payer: {
@@ -88,7 +88,7 @@ app.post("/newPurchase", async function (req, res) {
     },
     notification_url: process.env.APP_URL + "/webhook?source_news=webhook",
     statement_descriptor: "Teste",
-    external_reference: "eu@joselopes.me",
+    external_reference: "zeedu.profissional@gmail.com",
   };
 
   const preference = await MercadoPago.preferences.create(order);
