@@ -1,0 +1,19 @@
+{
+  "name": "mp-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "4.17.1",
+    "express-handlebars": "3.1.0",
+    "mercadopago": "^1.5.11",
+    "uuid": "^8.3.2"
+  }
+}
