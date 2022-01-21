@@ -150,7 +150,7 @@
 
   <script>
     async function newPurchase(name, price, unit, img) { const response =
-    axios.post('https://mercado-pago-nodejs-challenge.herokuapp.com/newPurchase',
+    axios.post('https://zeeduardoz-mp-commerce-nodejs.herokuapp.com/newPurchase',
     {name, price, unit, img}).then(r => { window.location.href = r.data.redirect
     }).catch(e => {console.log(e)}) }
 
