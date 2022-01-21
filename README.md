@@ -13,7 +13,7 @@ Requisitos para realizar a integração:
 
 ## Tornando meu e-commerce de exemplo público
 
-1. Faça uma bifurcação deste protótipo. Considerando que seu nome de usuário do GitHub é `username`, teremos o repositório https://github.com/username/mp-ecommerce-nodejs
+1. Faça um fork deste protótipo. Considerando que seu nome de usuário do GitHub é `username`, teremos o repositório https://github.com/username/mp-ecommerce-nodejs
 2. Faça login na sua conta Heroku
 3. Crie um aplicativo no Heroku para implantar nosso e-commerce. Nomeie-o como _username_-mp-commerce-nodejs. Exemplo:
 <div style="text-align: center;" >
