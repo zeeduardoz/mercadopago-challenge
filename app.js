@@ -51,11 +51,11 @@ app.post("/newPurchase", async function (req, res) {
         title: name,
         currency_id: "BRL",
         picture_url: img,
-        description: "Celular de Tienda e-commerce",
+        description: "Telefone celular da loja e-commerce",
         category_id: "art",
         quantity: +unit,
         unit_price: parseFloat(price),
-        external_reference: "andre.contiero@yahoo.com.br",
+        external_reference: "eu@joselopes.me",
       },
     ],
     payer: {
@@ -88,7 +88,7 @@ app.post("/newPurchase", async function (req, res) {
     },
     notification_url: process.env.APP_URL + "/webhook?source_news=webhook",
     statement_descriptor: "Teste",
-    external_reference: "andre.contiero@yahoo.com.br",
+    external_reference: "eu@joselopes.me",
   };
 
   const preference = await MercadoPago.preferences.create(order);
